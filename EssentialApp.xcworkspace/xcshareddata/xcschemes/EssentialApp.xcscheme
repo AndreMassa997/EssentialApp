@@ -32,6 +32,12 @@
             reference = "container:EssentialApp.xctestplan"
             default = "YES">
          </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../FeedApp/EssentialFeed.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:../FeedApp/EssentialFeediOS.xctestplan">
+         </TestPlanReference>
       </TestPlans>
       <Testables>
          <TestableReference
