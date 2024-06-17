@@ -1,5 +1,5 @@
 //
-//  RemoteWithLocalFallbackFeedLoaderTests.swift
+//  FeedLoaderWithFallbackCompositeTests.swift
 //  EssentialAppTests
 //
 //  Created by Andrea Massari on 17/06/24.
@@ -19,7 +19,7 @@ class FeedLoaderWithFallbackComposite: FeedLoader {
     }
 }
 
-class RemoteWithLocalFallbackFeedLoaderTests: XCTestCase {
+class FeedLoaderWithFallbackCompositeTests: XCTestCase {
     
     func test_load_deliversPrimaryFeedOnPrimaryLoaderSuccess() {
         let primaryFeed = uniqueFeed()
