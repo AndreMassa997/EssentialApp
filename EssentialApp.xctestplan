@@ -23,6 +23,20 @@
         "identifier" : "3E0A14232C1C17F6008557BE",
         "name" : "EssentialAppTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/FeedApp\/EssentialFeed.xcodeproj",
+        "identifier" : "3E4B7F2F2BE238BB000AD97A",
+        "name" : "EssentialFeedTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/FeedApp\/EssentialFeed.xcodeproj",
+        "identifier" : "3E85E3AC2BF50AD700C3AD98",
+        "name" : "EssentialFeediOSTests"
+      }
     }
   ],
   "version" : 1
